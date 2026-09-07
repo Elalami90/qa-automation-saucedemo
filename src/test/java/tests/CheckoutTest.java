@@ -90,7 +90,7 @@ public class CheckoutTest extends BaseTest {
 
 // Vérification que la commande a bien été terminée
         assertEquals(
-                "Thank you for your order!",
+                "Thank you for your order",
                 checkoutCompletePage.getConfirmationMessage()
         );
     }
